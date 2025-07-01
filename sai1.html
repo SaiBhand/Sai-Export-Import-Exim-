@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sai Export Import EXIM | Premium Indian Fruits</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sai Export Import EXIM specializes in exporting premium Indian fruits like pomegranates, mangoes, and more. Delivering quality and freshness worldwide.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/17d9abf7-1753-4a03-9c4e-8dd2cbcaf340.png');
+            background-size: cover;
+            background-position: center;
+            background-color: #a8dadc;
+        }
+        
+        .certification-icon {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-2 hover:opacity-90 transition-opacity">
+                <div class="flex items-center bg-white p-2 rounded-lg shadow-sm">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Satyamev_Jayate_Emblem.png" alt="Satyamev Jayate logo" class="h-12 w-12 mr-3">
+                    <div class="flex flex-col border-l-2 border-[#e63946] pl-3">
+                        <span class="text-xl font-bold text-[#e63946] leading-tight">SAI EXPORT IMPORT</span>
+                        <span class="text-lg font-bold text-gray-800 leading-tight">EXIM FRUITS</span>
+                        <span class="text-xs text-gray-500 mt-1" data-i18n="tagline">Global Pomegranate Specialists</span>
+                    </div>
+                </div>
+            </a>
+            <div class="hidden md:flex space-x-8 md:flex-row flex-col md:static absolute top-16 left-0 w-full md:w-auto bg-white md:bg-transparent z-40">
+                <a href="#home" class="hover:text-[#e63946]" data-i18n="home">Home</a>
+                <a href="#about" class="hover:text-[#e63946]" data-i18n="about">About Us</a>
+                <a href="#products" class="hover:text-[#e63946]" data-i18n="products">Products</a>
+                <a href="#certifications" class="hover:text-[#e63946]" data-i18n="certifications">Certifications</a>
+                <a href="#contact" class="hover:text-[#e63946]" data-i18n="contact">Contact Us</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#loginModal" class="bg-gray-100 hover:bg-gray-200 px-3 py-1 rounded-lg text-sm font-medium transition-colors" data-i18n="login">Login</a>
+                <a href="#registerModal" class="bg-[#e63946] hover:bg-[#c1121f] text-white px-3 py-1 rounded-lg text-sm font-medium transition-colors" data-i18n="register">Register</a>
+                <div class="relative">
+                    <button id="langBtn" class="flex items-center space-x-1 text-gray-700 hover:text-[#e63946] transition-colors focus:outline-none">
+                        <i class="fas fa-globe"></i>
+                        <span class="hidden md:inline" data-i18n="language">Language</span>
+                        <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
+                    <div id="langMenu" class="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg py-1 z-50 hidden">
+                        <a href="#" data-lang="en" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">English</a>
+                        <a href="#" data-lang="hi" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">हिंदी</a>
+                        <a href="#" data-lang="mr" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">मराठी</a>
+                        <a href="#" data-lang="gu" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">ગુજરાતી</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="focus:outline-none toggle-mobile-menu">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg h-96 flex items-center justify-center text-white">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold" data-i18n="heroTitle">Delivering India’s Natural Sweetness to the World</h1>
+            <p class="mt-4" data-i18n="heroSubtitle">Specializing in premium pomegranates and other fresh fruits.</p>
+            <a href="#products" class="mt-6 inline-block bg-[#e63946] text-white px-6 py-3 rounded-lg" data-i18n="viewProducts">View Products</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-6" data-i18n="about">About Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 items-center">
+                <p class="text-gray-700" data-i18n="aboutText">
+                    Founded in the heart of Maharashtra, Sai Export Import EXIM began its journey with a vision to take the richness of Indian fruits to the global market. Established in 2024, our company was born from a deep-rooted passion for agriculture and international
+                    trade.
+                    <br><br> Our mission is simple: “Deliver India’s natural sweetness to the world, with trust and transparency.”
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-6" data-i18n="ourProducts">Our Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 transition-all hover:transform hover:scale-105 hover:shadow-xl cursor-pointer product-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/95754bcd-3970-4b0b-9e3b-1ee511b0ff7b.png" alt="Fresh pomegranates" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-semibold mt-4" data-i18n="pomegranates">Pomegranates</h3>
+                    <p class="text-gray-600" data-i18n="pomegranatesDesc">Fresh ruby arils bursting with juice. Our specialty export product.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 transition-all hover:transform hover:scale-105 hover:shadow-xl cursor-pointer product-card">
+                    <img src="https://www.agromaroc.ma/wp-content/uploads/2022/05/manguier.jpg" alt="Fresh mangoes" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-semibold" data-i18n="mangoes">Mangoes</h3>
+                    <p class="text-gray-600" data-i18n="mangoesDesc">Sweet and aromatic, a favorite among fruit lovers.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 transition-all hover:transform hover:scale-105 hover:shadow-xl cursor-pointer product-card">
+                    <img src="https://www.citrus.com/wp-content/uploads/2015/10/Citrus_Full_340.jpg" alt="Fresh citrus fruits" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-semibold" data-i18n="citrusFruits">Citrus Fruits</h3>
+                    <p class="text-gray-600" data-i18n="citrusFruitsDesc">Tangy and refreshing, ideal for juices and snacks.</p>
+                </div>
+            </div>
+            <div class="text-center mt-6">
+                <a href="#" class="bg-[#e63946] text-white px-6 py-3 rounded-lg" data-i18n="downloadCatalog">Download Catalog</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-6" data-i18n="ourCertifications">Our Certifications</h2>
+            <div class="flex justify-center space-x-6">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c72f13ee-46d3-42e9-87a4-05bb4c6a3645.png" alt="DGFT Certification" class="certification-icon">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a840e1b8-5ff7-4937-aeca-c55bb22e58e4.png" alt="APEDA Certification" class="certification-icon">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/147cf8d7-053f-48f2-9d40-cfa16e27b604.png" alt="FSSAI Certification" class="certification-icon">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-6" data-i18n="contactUs">Contact Us</h2>
+            <form class="max-w-lg mx-auto" id="contactForm">
+                <div class="mb-4">
+                    <label for="name" class="block text-sm font-medium text-gray-700" data-i18n="fullName">Full Name</label>
+                    <input type="text" id="name" class="mt-1 block w-full border border-gray-300 rounded-md p-2" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700" data-i18n="email">Email</label>
+                    <input type="email" id="email" class="mt-1 block w-full border border-gray-300 rounded-md p-2" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-sm font-medium text-gray-700" data-i18n="message">Message</label>
+                    <textarea id="message" class="mt-1 block w-full border border-gray-300 rounded-md p-2" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="bg-[#e63946] text-white px-6 py-3 rounded-lg" data-i18n="sendMessage">Send Message</button>
+            </form>
+            <div class="mt-12 bg-gray-50 rounded-lg p-6 shadow-sm">
+                <h3 class="text-xl font-semibold text-center mb-6 text-[#e63946]" data-i18n="contactDirector">Contact Director</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="flex flex-col items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-100 transition-colors">
+                        <i class="fas fa-user text-[#e63946] text-2xl mb-2"></i>
+                        <span class="font-medium" data-i18n="directorName">Sagar Bhand</span>
+                        <span class="text-sm text-gray-600" data-i18n="directorTitle">Director</span>
+                    </div>
+                    <div class="flex flex-col items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-100 transition-colors">
+                        <i class="fas fa-phone text-[#e63946] text-2xl mb-2"></i>
+                        <span class="font-medium">9730456181</span>
+                        <span class="text-sm text-gray-600" data-i18n="available">Available 9AM-7PM</span>
+                    </div>
+                    <div class="flex flex-col items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-100 transition-colors">
+                        <i class="fas fa-envelope text-[#e63946] text-2xl mb-2"></i>
+                        <span class="font-medium">bhandsagar51@gmail.com</span>
+                        <span class="text-sm text-gray-600" data-i18n="businessInquiries">Business Inquiries</span>
+                    </div>
+                </div>
+                <div class="flex justify-center space-x-6 mt-6">
+                    <a href="https://wa.me/919730456181" class="text-[#e63946] hover:text-[#c1121f] transition-colors" title="WhatsApp">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </a>
+                    <a href="tel:+919730456181" class="text-[#e63946] hover:text-[#c1121f] transition-colors" title="Call">
+                        <i class="fas fa-phone-square-alt fa-2x"></i>
+                    </a>
+                    <a href="sms:+919730456181" class="text-[#e63946] hover:text-[#c1121f] transition-colors" title="Text Message">
+                        <i class="fas fa-sms fa-2x"></i>
+                    </a>
+                    <a href="mailto:bhandsagar51@gmail.com" class="text-[#e63946] hover:text-[#c1121f] transition-colors" title="Email">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-lg max-w-md w-full p-6">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-bold" data-i18n="login">Login</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <form>
+                <div class="mb-4">
+                    <label class="block text-sm text-gray-700 mb-1" data-i18n="email">Email</label>
+                    <input type="email" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm text-gray-700 mb-1" data-i18n="password">Password</label>
+                    <input type="password" class="w-full p-2 border rounded" required>
+                </div>
+                <button type="submit" class="w-full bg-[#e63946] text-white py-2 rounded-lg" data-i18n="login">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-lg max-w-md w-full p-6">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-bold" data-i18n="register">Register</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <form>
+                <div class="mb-4">
+                    <label class="block text-sm text-gray-700 mb-1" data-i18n="fullName">Full Name</label>
+                    <input type="text" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm text-gray-700 mb-1" data-i18n="email">Email</label>
+                    <input type="email" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm text-gray-700 mb-1" data-i18n="password">Password</label>
+                    <input type="password" class="w-full p-2 border rounded" required>
+                </div>
+                <button type="submit" class="w-full bg-[#e63946] text-white py-2 rounded-lg" data-i18n="register">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Sai Export Import EXIM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- LANGUAGE & INTERACTIVITY SCRIPTS -->
+    <script>
+        // Translation data
+        const translations = {
+            en: {
+                home: "Home",
+                about: "About Us",
+                products: "Products",
+                certifications: "Certifications",
+                contact: "Contact Us",
+                login: "Login",
+                register: "Register",
+                language: "Language",
+                tagline: "Global Pomegranate Specialists",
+                heroTitle: "Delivering India’s Natural Sweetness to the World",
+                heroSubtitle: "Specializing in premium pomegranates and other fresh fruits.",
+                viewProducts: "View Products",
+                aboutText: `Founded in the heart of Maharashtra, Sai Export Import EXIM began its journey with a vision to take the richness of Indian fruits to the global market. Established in 2024, our company was born from a deep-rooted passion for agriculture and international trade. <br><br>Our mission is simple: “Deliver India’s natural sweetness to the world, with trust and transparency.”`,
+                ourProducts: "Our Products",
+                pomegranates: "Pomegranates",
+                pomegranatesDesc: "Fresh ruby arils bursting with juice. Our specialty export product.",
+                mangoes: "Mangoes",
+                mangoesDesc: "Sweet and aromatic, a favorite among fruit lovers.",
+                citrusFruits: "Citrus Fruits",
+                citrusFruitsDesc: "Tangy and refreshing, ideal for juices and snacks.",
+                downloadCatalog: "Download Catalog",
+                ourCertifications: "Our Certifications",
+                contactUs: "Contact Us",
+                fullName: "Full Name",
+                email: "Email",
+                message: "Message",
+                sendMessage: "Send Message",
+                contactDirector: "Contact Director",
+                directorName: "Sagar Bhand",
+                directorTitle: "Director",
+                available: "Available 9AM-7PM",
+                businessInquiries: "Business Inquiries",
+                password: "Password"
+            },
+            hi: {
+                home: "होम",
+                about: "हमारे बारे में",
+                products: "उत्पाद",
+                certifications: "प्रमाणपत्र",
+                contact: "संपर्क करें",
+                login: "लॉगिन",
+                register: "रजिस्टर",
+                language: "भाषा",
+                tagline: "वैश्विक अनार विशेषज्ञ",
+                heroTitle: "भारत की प्राकृतिक मिठास दुनिया तक पहुँचाना",
+                heroSubtitle: "प्रीमियम अनार और अन्य ताजे फलों में विशेषज्ञता।",
+                viewProducts: "उत्पाद देखें",
+                aboutText: `महाराष्ट्र के दिल में स्थापित, साई एक्सपोर्ट इम्पोर्ट EXIM ने भारतीय फलों की समृद्धि को वैश्विक बाजार तक पहुँचाने के लक्ष्य के साथ अपनी यात्रा शुरू की। 2024 में स्थापित, हमारी कंपनी कृषि और अंतरराष्ट्रीय व्यापार के प्रति गहरी लगन से जन्मी। <br><br>हमारा मिशन सरल है: "विश्वास और पारदर्शिता के साथ भारत की प्राकृतिक मिठास दुनिया तक पहुँचाना।"`,
+                ourProducts: "हमारे उत्पाद",
+                pomegranates: "अनार",
+                pomegranatesDesc: "रस से भरपूर ताजे अनार के दाने। हमारा विशेष निर्यात उत्पाद।",
+                mangoes: "आम",
+                mangoesDesc: "मीठे और सुगंधित, फलों के प्रेमियों की पसंद।",
+                citrusFruits: "सिट्रस फल",
+                citrusFruitsDesc: "खट्टे और ताजगी से भरपूर, जूस और स्नैक्स के लिए आदर्श।",
+                downloadCatalog: "कैटलॉग डाउनलोड करें",
+                ourCertifications: "हमारे प्रमाणपत्र",
+                contactUs: "संपर्क करें",
+                fullName: "पूरा नाम",
+                email: "ईमेल",
+                message: "संदेश",
+                sendMessage: "संदेश भेजें",
+                contactDirector: "संपर्क निदेशक",
+                directorName: "सागर भंड",
+                directorTitle: "निदेशक",
+                available: "सुबह 9 से शाम 7 बजे तक उपलब्ध",
+                businessInquiries: "व्यावसायिक पूछताछ",
+                password: "पासवर्ड"
+            },
+            mr: {
+                home: "मुख्यपृष्ठ",
+                about: "आमच्याबद्दल",
+                products: "उत्पादने",
+                certifications: "प्रमाणपत्रे",
+                contact: "संपर्क",
+                login: "लॉगिन",
+                register: "नोंदणी",
+                language: "भाषा",
+                tagline: "जागतिक डाळिंब तज्ञ",
+                heroTitle: "भारतीय नैसर्गिक गोडवा जगभर पोहोचवित आहोत",
+                heroSubtitle: "प्रीमियम डाळिंब व इतर ताज्या फळांमध्ये विशेष कौशल्य.",
+                viewProducts: "उत्पादने पहा",
+                aboutText: `महाराष्ट्राच्या हृदयात स्थापन, साई एक्सपोर्ट इम्पोर्ट EXIM ने भारतीय फळांची श्रीमंती जागतिक बाजारपेठेत नेण्याच्या दृष्टीने आपली वाटचाल सुरू केली. 2024 मध्ये स्थापन, आमची कंपनी शेती व आंतरराष्ट्रीय व्यापारातील खोल आवडीतून जन्मली आहे.<br><br>आमचे ध्येय सोपे आहे: "विश्वास व पारदर्शकतेसह भारताचा नैसर्गिक गोडवा जगभर पोहोचवणे."`,
+                ourProducts: "आमची उत्पादने",
+                pomegranates: "डाळिंब",
+                pomegranatesDesc: "रसाळ, ताजे डाळिंब. आमचा खास निर्यात उत्पाद.",
+                mangoes: "आंबा",
+                mangoesDesc: "गोड आणि सुगंधी, फळप्रेमींची आवड.",
+                citrusFruits: "सिट्रस फळे",
+                citrusFruitsDesc: "आंबट आणि ताजेतवाने, रस व स्नॅक्ससाठी उत्तम.",
+                downloadCatalog: "कॅटलॉग डाउनलोड करा",
+                ourCertifications: "आमची प्रमाणपत्रे",
+                contactUs: "संपर्क",
+                fullName: "पूर्ण नाव",
+                email: "ईमेल",
+                message: "संदेश",
+                sendMessage: "संदेश पाठवा",
+                contactDirector: "संपर्क संचालक",
+                directorName: "सागर भंड",
+                directorTitle: "संचालक",
+                available: "उपलब्ध: सकाळी ९ ते संध्याकाळी ७",
+                businessInquiries: "व्यावसायिक चौकशी",
+                password: "पासवर्ड"
+            },
+            gu: {
+                home: "હોમ",
+                about: "અમારા વિશે",
+                products: "ઉત્પાદનો",
+                certifications: "પ્રમાણપત્રો",
+                contact: "સંપર્ક કરો",
+                login: "લૉગિન",
+                register: "નોંધણી",
+                language: "ભાષા",
+                tagline: "વૈશ્વિક દાડમ નિષ્ણાત",
+                heroTitle: "ભારતની કુદરતી મીઠાશ દુનિયા સુધી પહોંચાડીએ છીએ",
+                heroSubtitle: "પ્રીમિયમ દાડમ અને અન્ય તાજા ફળોમાં નિષ્ણાત.",
+                viewProducts: "ઉત્પાદનો જુઓ",
+                aboutText: `મહારાષ્ટ્રના હૃદયમાં સ્થાપિત, સાય એક્સપોર્ટ ઇમ્પોર્ટ EXIM એ ભારતીય ફળોની સમૃદ્ધિને વૈશ્વિક બજારમાં પહોંચાડવાનો દ્રષ્ટિકોણ રાખીને તેની સફર શરૂ કરી હતી. 2024માં સ્થાપિત, અમારી કંપની કૃષિ અને આંતરરાષ્ટ્રીય વેપારમાં ઊંડા ઉત્સાહથી જન્મી છે.<br><br>અમારું મિશન સરળ છે: "વિશ્વાસ અને પારદર્શિતાથી ભારતની કુદરતી મીઠાશ દુનિયા સુધી પહોંચાડવી."`,
+                ourProducts: "અમારા ઉત્પાદનો",
+                pomegranates: "દાડમ",
+                pomegranatesDesc: "રસથી ભરપૂર તાજા દાડમના દાણા. અમારો વિશિષ્ટ નિકાસ ઉત્પાદન.",
+                mangoes: "કેરી",
+                mangoesDesc: "મીઠી અને સુગંધિત, ફળપ્રેમીઓની પસંદ.",
+                citrusFruits: "સિટ્રસ ફળો",
+                citrusFruitsDesc: "ખટ્ટા અને તાજગીભર્યા, રસ અને નાસ્તા માટે ઉત્તમ.",
+                downloadCatalog: "કેટલોગ ડાઉનલોડ કરો",
+                ourCertifications: "અમારા પ્રમાણપત્રો",
+                contactUs: "સંપર્ક કરો",
+                fullName: "પૂર્ણ નામ",
+                email: "ઇમેઇલ",
+                message: "સંદેશ",
+                sendMessage: "સંદેશ મોકલો",
+                contactDirector: "સંપર્ક ડિરેક્ટર",
+                directorName: "સાગર ભંડ",
+                directorTitle: "ડિરેક્ટર",
+                available: "ઉપલબ્ધ: સવારે 9 થી સાંજે 7",
+                businessInquiries: "વ્યાવસાયિક પૂછપરછ",
+                password: "પાસવર્ડ"
+            }
+        };
+
+        function setLanguage(lang) {
+            if (!translations[lang]) return;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang][key]) {
+                    el.innerHTML = translations[lang][key];
+                }
+            });
+        }
+
+        document.getElementById('langBtn').onclick = function(e) {
+            e.stopPropagation();
+            document.getElementById('langMenu').classList.toggle('hidden');
+        };
+        document.addEventListener('click', function(e) {
+            if (!document.getElementById('langMenu').contains(e.target)) {
+                document.getElementById('langMenu').classList.add('hidden');
+            }
+        });
+
+        document.querySelectorAll('#langMenu a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                setLanguage(this.getAttribute('data-lang'));
+                document.getElementById('langMenu').classList.add('hidden');
+            });
+        });
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('nav a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Open modals
+        document.querySelectorAll('a[href="#loginModal"]').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.getElementById('loginModal').classList.remove('hidden');
+            });
+        });
+        document.querySelectorAll('a[href="#registerModal"]').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.getElementById('registerModal').classList.remove('hidden');
+            });
+        });
+
+        // Close modals
+        document.querySelectorAll('.close-modal').forEach(btn => {
+            btn.addEventListener('click', function() {
+                btn.closest('.fixed').classList.add('hidden');
+            });
+        });
+        // Close modal on outside click
+        document.querySelectorAll('.fixed').forEach(modal => {
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) modal.classList.add('hidden');
+            });
+        });
+
+        // Contact form feedback
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            this.reset();
+            alert('Thank you for contacting us! We will get back to you soon.');
+        });
+
+        // Set default language on load
+        setLanguage('en');
+    </script>
+</body>
+
+</html>
